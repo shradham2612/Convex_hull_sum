@@ -86,7 +86,7 @@ void checkifInside(vector<vector<int>> matrix, vector<vector<int>> polygon)
             vector<int> coordinate;
             coordinate.push_back(i);
             coordinate.push_back(j);
-            cout << endl;
+            //cout << endl;
             if (isInside(polygon, polygon.size(), coordinate))
             {
                // cout << matrix[i][j] << " ";
